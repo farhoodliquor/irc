@@ -73,6 +73,7 @@ spec:
     - metadata:
         name: config
       spec:
+        storageClassName: block-truenas
         accessModes:
           - ReadWriteOnce
         resources:
